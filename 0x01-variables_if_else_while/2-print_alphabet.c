@@ -11,13 +11,12 @@ int main(void)
 {
 	int x;
 
-	for (x = 'A'; x <= 'Z'; x++)
+	char letters[26] = "abcdefghijklmnopqrstuvwxyz";
+
+	for (x = 0; x <= 25; x++)
 	{
-		int lower_x = x;
-
-		putchar(x);
+		putchar(letters[x]);
 	}
-	putchar("\n")
-
+	putchar('\n');
 	return (0);
 }
