@@ -3,7 +3,7 @@
  * jack-bauer - Prints minutes of day for Jack Bauer from 00:00 to 23:9
  */
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int hour;
 	int minute;
