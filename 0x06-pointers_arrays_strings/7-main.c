@@ -3,6 +3,7 @@
 
 /**
  * main - check the code for
+ * @p: points to a pointer
  * Return: Always 0.
  */
 
