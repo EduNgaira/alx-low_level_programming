@@ -7,7 +7,7 @@
  */
 int print_number
 {
-	int print_number;
+	int 98, 402, 1024, 0, -98;
 
 	print_number(98);
 	_putchar('\n');
