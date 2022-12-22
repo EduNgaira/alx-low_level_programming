@@ -2,32 +2,27 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * rot13 - rotates by 13 places
  * @p: pointer
- * @ROT13: rotate by 13 places
  * Return: Always 0.
  */
-
-int main(void)
+char *rot13(char *p)
 {
 	char s[] = "ROT13 (\"rotate by 13 places\","
 	     "sometimes hyphenated ROT-13)"
 		     "is a simple letter substitution cipher.\n";
 
-	char *p;
-
-
-	p = ROT13(s);
+	p = rot13(s);
 	printf("%s", p);
 	printf("------------------------------------\n");
 	printf("%s", s);
 	printf("------------------------------------\n");
-	p = ROT13(s);
+	p = rot13(s);
 	printf("%s", p);
 	printf("------------------------------------\n");
 	printf("%s", s);
 	printf("------------------------------------\n");
-	p = ROT13(s);
+	p = rot13(s);
 	printf("%s", p);
 	printf("------------------------------------\n");
 	printf("%s", s);
