@@ -1,14 +1,11 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
- * print_number - prints the numbers
+ * main - check the code
  * Return: Always 0.
  */
-int print_number
+int main(void)
 {
-	int 98, 402, 1024, 0, -98;
-
 	print_number(98);
 	_putchar('\n');
 	print_number(402);
@@ -19,5 +16,4 @@ int print_number
 	_putchar('\n');
 	print_number(-98);
 	_putchar('\n');
-	return (0);
-}
+}	
