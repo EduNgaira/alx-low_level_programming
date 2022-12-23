@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * main - check the code
@@ -16,4 +17,5 @@ int main(void)
 	_putchar('\n');
 	print_number(-98);
 	_putchar('\n');
+	return (0);
 }	
