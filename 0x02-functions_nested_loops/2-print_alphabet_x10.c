@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- * main - Print alphabet ten times
- *
- * Return: 0
+ * print_alphabet_x10 -> prints alphabet
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int x;
 	int y;
@@ -17,5 +15,5 @@ void print_alphabet_x10(void);
 		_putchar(x);
 	}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
