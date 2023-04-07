@@ -2,7 +2,7 @@
 
 /**
  * hash_table_get - Get value associated with
- a key in a hash table.
+ *			a key in a hash table.
  * @ht: Hash table pointer.
  * @key: Key whose value we are looking for.
  *
