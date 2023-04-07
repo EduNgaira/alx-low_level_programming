@@ -8,9 +8,10 @@
  *
  * Return: The index of the key.
  *
- * Description: Employ algorithm
+ * Description: Employ djb2 algorithm
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
+	hash_value = hash_djb2(key);
 	return (hash_djb2(key) % size);
 }
