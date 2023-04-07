@@ -23,7 +23,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 
 	index = key_index((const unsigned char *)key, ht->size);
-	for (k = index; ht->array[i]; i++)
+	for (k = index; ht->array[k]; k++)
 	{
 		if (strcmp(ht->array[k]->key, key) == 0)
 		{
