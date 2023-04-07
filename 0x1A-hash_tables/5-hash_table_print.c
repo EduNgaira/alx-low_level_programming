@@ -15,23 +15,27 @@ void hash_table_print(const hash_table_t *ht)
 	unsigned char comma_flag = 0;
 
 	if (ht == 0)
+	{
 		return;
-
+	}
 	printf("{");
 	for (k = 0; k < ht->size; k++)
 	{
 		if (ht->array[k] != NULL)
 		{
 			if (comma_flag == 1)
+			{
 				printf(", ");
-
-			node = ht->array[i];
+			}
+			node = ht->array[k];
 			while (node != 0)
 			{
 				printf("'%s': '%s'", node->key, node->value);
 				node = node->next;
 				if (node != 0)
+				{
 					printf(", ");
+				}
 			}
 			comma_flag = 1;
 		}
