@@ -7,6 +7,8 @@
  * @size: Hash table array size.
  *
  * Return: The index of the key.
+ *
+ * Description: Employ algorithm
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
