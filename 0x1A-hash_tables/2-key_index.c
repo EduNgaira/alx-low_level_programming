@@ -2,7 +2,7 @@
 
 /**
  * key_index - Find index where key/value pair is to be stored
- in hash table.
+ *		in hash table.
  * @key: The index of this number.
  * @size: Hash table array size.
  *
